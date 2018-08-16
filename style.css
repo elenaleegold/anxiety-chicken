@@ -309,14 +309,15 @@ video{
 }
 
 #about{
-	margin: 2% auto;
+		/*margin: 0 auto;*/
+	margin: 3% auto;
 	width: 40%;
 	height: auto;
 	position: relative;
 	/*margin: 10%;*/
 	background-color: white;
-	margin-left: 7%;
 	float:left;
+    margin-left: 7%;
 
 }
 
