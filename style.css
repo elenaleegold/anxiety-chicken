@@ -274,6 +274,10 @@ nav a:hover{
 
 video{
 	 margin-top: 5%;
+	 margin: 0 auto;
+	 /*height: 70%;*/
+	 margin-top: 15%;
+	 margin-bottom: 10%;
 }
 
 #page4{
