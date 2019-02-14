@@ -72,7 +72,7 @@ nav a:hover{
 }
 
 .img-container{
-	height: 100%;
+	height: auto;
 	width: 100%;
 	/*border: 1px solid #f5f5f5;*/
 }
@@ -189,7 +189,7 @@ nav a:hover{
 	background: url("images/bg.png");
 	background-size: contain;
 	background-repeat: repeat;
-	margin: 0;
+	margin: 0 auto;
 }
 
 #container{
@@ -212,9 +212,9 @@ nav a:hover{
     box-sizing: border-box;
     max-width: 175px;
     position: relative;
-    top: 30%;
     left: 0;
     margin: 0 auto;
+    padding-top: 10%;
     transform: scale(4);
     z-index: 3;
     animation: pulse 2s infinite alternate;
@@ -273,11 +273,7 @@ nav a:hover{
 }
 
 video{
-	 margin-top: 5%;
-	 margin: 0 auto;
-	 /*height: 70%;*/
-	 margin-top: 15%;
-	 margin-bottom: 10%;
+	 width: 100%;
 }
 
 #page4{
@@ -313,7 +309,7 @@ video{
 }
 
 #about{
-		/*margin: 0 auto;*/
+	/*margin: 0 auto;*/
 	margin: 3% auto;
 	width: 40%;
 	height: auto;
