@@ -5,7 +5,7 @@
 
 body{
 	width: 100vw;
-	height: 500vh;
+	height: 400vh;
 	margin: 0;
 	/*background: url("images/bg.png");*/
 	background-size: contain;
@@ -24,6 +24,7 @@ body{
 	position: fixed;
 	float: left;
 }
+
 
 #nav{
 	height: 10%;
@@ -183,7 +184,7 @@ nav a:hover{
 }
 
 #landing-page{
-	height:20%;
+	height:30%;
 	width: 100%;
 	box-sizing: border-box;
 	background: url("images/bg.png");
@@ -238,7 +239,7 @@ nav a:hover{
 }
 
 #page2{
-	height:20%;
+	height:30%;
 	background: url("images/bg2.png");
 	background-size: contain;
 	padding: 0 auto;
@@ -247,11 +248,11 @@ nav a:hover{
 }
 
 #page3{
-	height:20%;
+	height:30%;
 	background: url("images/bg3.png");
 	background-size: contain;
 	padding: 0 auto;
-	    margin-top: 20px;
+	margin-top: 20px;
 	position: relative;
 }
 
@@ -267,6 +268,11 @@ nav a:hover{
 
 }
 
+#page3 p{
+	text-align: center;
+
+}
+
 #image-container3{
 	height: 100%;
 
@@ -274,10 +280,11 @@ nav a:hover{
 
 video{
 	 width: 100%;
+	 padding-top: 10%;
 }
 
 #page4{
-	height:20%;
+	height:30%;
 	background: url("images/b4.png");
 	background-size: contain;
 	padding: 0 auto;
@@ -381,6 +388,7 @@ video{
 	margin-bottom:-20px;
 	background-color: white;
 	position: relative;
+	text-align: center;
 }
 
 .titleBox p{
